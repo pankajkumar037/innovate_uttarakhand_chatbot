@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import {
   Box,
   Paper,
@@ -13,19 +13,18 @@ import {
   CircularProgress,
   IconButton,
   Divider,
-  Chip,
   Alert,
 } from '@mui/material';
 import {
   Send as SendIcon,
   SmartToy as BotIcon,
   Person as PersonIcon,
-  Upload as UploadIcon,
   Refresh as RefreshIcon,
 } from '@mui/icons-material';
 import { styled } from '@mui/material/styles';
 import ReactMarkdown from 'react-markdown';
 import { chatAPI } from '../services/api';
+
 
 const ChatContainer = styled(Paper)(({ theme }) => ({
   height: '70vh',
