@@ -77,7 +77,7 @@ def get_vector_index():
                 cosmos_search_kwargs={"kind": "vector-ivf", "numLists": 1, "similarity": "COS"},
             )
             vector_index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
-            logger.info("✅ Vector index loaded from Cosmos DB")
+            logger.info(" Vector index loaded from Cosmos DB")
         except Exception as e:
             logger.error(f"Failed to load vector index: {e}")
             vector_index = None
