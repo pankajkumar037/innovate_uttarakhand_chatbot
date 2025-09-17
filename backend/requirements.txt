@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+openai
+pydantic
+python-multipart
+llama-index
+llama-index-vector-stores-azurecosmosmongo
+llama-index-embeddings-openai
+llama-index-core
+pymongo
+PyPDF2
+aiofiles
+fastapi-cors
